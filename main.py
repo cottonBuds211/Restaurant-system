@@ -10,7 +10,7 @@ class Reservation:
     no_of_kids: int
 
 
-class Reservation_system:
+class ReservationSystem:
     def __init__(self):
         self.reservation_list = []
         self.load_reservations()
@@ -135,7 +135,7 @@ class Reservation_system:
         self.save_reservation()
         print(f"\nGuest {name} deleted from the system!")
         
-system = Reservation_system()
+system = ReservationSystem()
 while True:
     print()
     print("="*40)
